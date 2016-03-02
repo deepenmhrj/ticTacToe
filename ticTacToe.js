@@ -86,6 +86,10 @@ window.addEventListener('DOMContentLoaded', function() {
       
       // only allow move if box is blank
       if (this.innerText === "") {
+<<<<<<< HEAD
+=======
+        //console.log(turn);
+>>>>>>> 63018df3e9ed929182b1d8a7371a3eb5d45e2656
         this.innerText = turn;
         this.className += " " + turn;
         moves += 1;
